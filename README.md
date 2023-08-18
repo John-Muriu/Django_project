@@ -1,4 +1,3 @@
-Certainly! Here's a README file based on the details you provided:
 
 ```markdown
 # ReactDjangoPortfolio
@@ -11,7 +10,7 @@ Welcome to **ReactDjangoPortfolio**! This project is designed to help you set up
 
 To edit the portfolio information, access the Django admin panel by navigating to `/admin` in your application. You'll need to create a superuser account to log in:
 
-1. Run the following command to create a superuser:
+### Run the following command to create a superuser:
    ```
    python manage.py createsuperuser
    ```
@@ -20,6 +19,7 @@ To edit the portfolio information, access the Django admin panel by navigating t
 
 These instructions will help you set up and run the project on your local machine for development and testing.
 
+
 ### Step 1: Clone the Repository
 
 Clone the project repository to your local machine using the following command:
@@ -27,6 +27,10 @@ Clone the project repository to your local machine using the following command:
 git clone https://github.com/john-muriu/Django_project.git
 ```
 
+Clone the project repository to your local machine using the following command:
+```bash
+git clone https://github.com/john-muriu/Django_project.git
+```
 ### Step 2: Navigate to the Clone
 
 Navigate to the project directory by executing:
