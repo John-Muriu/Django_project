@@ -90,7 +90,7 @@ h1 {
 }
 h2 {
   font-size: 1.4rem;
-  color: #59c378 !important;
+  color: #ffffff !important;
 }
 
 h3 {
@@ -140,7 +140,7 @@ section > div {
   --grey-light: #f2f7f9;
   --grey: #ecedf3;
   --color-white: #1d1b1b;
-  --color-second-title: #ff5652;
+  --color-second-title: #000000;
   --color-info-dark: #7d8da1;
   --color-info-light: #050748;
   --color-dark: #161818;
