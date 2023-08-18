@@ -2,7 +2,7 @@
 ```markdown
 # ReactDjangoPortfolio
 
-Welcome to **ReactDjangoPortfolio**! This project is designed to help you set up and manage a portfolio using a combination of React and Django. Follow the steps below to get started.
+Welcome to my React Django Portfolio! This project is designed to help you set up and manage a portfolio using a combination of React and Django. Follow the steps below to get started.
 
 ## Getting Started
 
