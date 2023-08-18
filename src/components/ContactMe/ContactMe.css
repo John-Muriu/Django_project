@@ -1,0 +1,220 @@
+.contact-me2 {
+  color: var(--color-info-light);
+  max-width: 1400px;
+  padding: 40px 60px 10px 30px;
+  margin: 50px 50px 30px 50px;
+  position: relative;
+  background: #0c0122;
+  border-radius: 20px;
+}
+
+.contact-me2 .work-togater-text {
+  z-index: 200 !important;
+  position: relative !important;
+}
+.contact-title {
+  margin-bottom: 30px;
+}
+.contact-title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--color-title);
+}
+.contact-title h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  width: 390px;
+  font-family: "Playfair Display", Sans-serif;
+
+  margin-bottom: 40px;
+}
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.work-togather-form {
+  padding-left: 30px;
+  display: flex;
+  font-size: 15px !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.work-togather-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.work-togather-text p {
+  font-size: 14px;
+}
+.form-input-one {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  line-height: 24px;
+  color: #10161b;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  padding: 12px 30px;
+  box-shadow: none;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+.footer-social span {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 15px !important;
+}
+.footer-social ul {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.footer-social ul li {
+  margin-left: 15px;
+  display: flex !important;
+}
+.footer-social ul li a {
+  margin-right: 15px;
+}
+
+.sec-btn {
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  height: 60px;
+  background: rgb(194, 120, 251);
+  background: var(--color-button-hover);
+  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.35);
+  display: inline-block;
+  overflow: hidden;
+  padding: 18px 20px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+}
+.icon-name {
+  color: #ffffff !important;
+  font-size: 14px;
+}
+.d-name {
+  color: #cacaca !important;
+}
+.icon-cont {
+  background: rgba(82, 95, 165, 0.1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.contact-info {
+  text-align: left !important;
+}
+.contact-info h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#msg {
+  color: #cacaca !important;
+  font-size: 15px;
+}
+
+.contact-details p {
+  font-size: 13px;
+  font-weight: 500;
+  /* color: #fff !important; */
+}
+
+/* resposiveness */
+@media only screen and (max-width: 991px) {
+  .work-togather-form {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-me2 .contact-title {
+    text-align: center;
+  }
+  .work-togather-form {
+    margin-bottom: 20px;
+  }
+  .work-togather-form-btn {
+    float: right;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contact-me2 {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .sec-btn {
+    margin-top: 10px;
+  }
+  .contact-info {
+    margin-bottom: 0px;
+  }
+  .contact-me2 {
+    padding: 30px 20px;
+    background: #0c0122;
+  }
+  .work-togather-text h2 {
+    font-size: 1.5rem;
+  }
+  .work-togather-form {
+    margin-bottom: 0px;
+  }
+  .work-togather-form input {
+    height: 55px;
+  }
+}
+
+/*  light theme settings */
+.light .contact-me2 {
+  background: rgb(255, 255, 255);
+}
+.light .contact-info {
+  color: #10161b !important;
+}
+.light .sec-btn {
+  background: var(--btn-background);
+}
+
+.light .contact-details p {
+  color: #242424 !important;
+}
+.light .contact-details h4 {
+  color: #000000 !important;
+}
+.light .footer-social i {
+  background: var(--btn-background) !important;
+  color: #fff;
+}
+.light .form-input-one {
+  background: #ebebeb;
+}
