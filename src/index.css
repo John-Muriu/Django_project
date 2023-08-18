@@ -17,17 +17,14 @@
   --color-primary-variant: #111e88;
   --color-dark-variant: #677483;
   --color-background: #0d012c;
-  /* --color-background: #eaf0fa; */
-  --color-title: #000000;
+  --color-title: #2196f3;
   --color-card2: #14143a;
 
-  /* --color-button: linear-gradient(to left, #17c0e9, #c96ddd, #f45162); */
-  --color-button: #17c0e9;
+  --color-button: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
   --color-special-color: #eff30e;
   --color-button-hover: #59c378;
 
   --color-background-2: #0d012c;
-  /* --color-background: #eaf0fa; */
   --color-icon-background: #464a68;
   --color-card-background: #1f0a44 0;
 
