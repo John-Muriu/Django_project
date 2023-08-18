@@ -14,11 +14,11 @@ const Navbar = () => {
           <div className="navi">
             <div className="col-xl-12 d-flex align-items-center lefty">
               <h5 className="ld-flex mr-auto devman">
-                <img
+                {/* <img
                   src="https://code.google.com/images/developers.png"
                   alt=""
-                />
-                Pro.dev <span className="blink"> _</span>
+                /> */}
+                John Muriu <span className="blink"> _</span>
               </h5>
               <nav className="nav-menu  mainMenu">
                 <ul>
